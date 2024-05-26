@@ -13,6 +13,8 @@
 		CE90553B2C0300B100840429 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE90553A2C0300B100840429 /* Base */; };
 		CE90553D2C0300B200840429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90553C2C0300B200840429 /* Assets.xcassets */; };
 		CE9055402C0300B200840429 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE90553F2C0300B200840429 /* Base */; };
+		CE9055482C03021E00840429 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9055472C03021E00840429 /* TableViewController.swift */; };
+		CE90554A2C03211E00840429 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9055492C03211E00840429 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE90553C2C0300B200840429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE90553F2C0300B200840429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9055412C0300B200840429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9055472C03021E00840429 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE9055492C03211E00840429 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE90553C2C0300B200840429 /* Assets.xcassets */,
 				CE90553E2C0300B200840429 /* LaunchScreen.storyboard */,
 				CE9055412C0300B200840429 /* Info.plist */,
+				CE9055472C03021E00840429 /* TableViewController.swift */,
+				CE9055492C03211E00840429 /* TableViewCell.swift */,
 			);
 			path = "SeSAC-Assignment-9";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE90554A2C03211E00840429 /* TableViewCell.swift in Sources */,
 				CE9055382C0300B100840429 /* ViewController.swift in Sources */,
 				CE9055342C0300B100840429 /* AppDelegate.swift in Sources */,
 				CE9055362C0300B100840429 /* SceneDelegate.swift in Sources */,
+				CE9055482C03021E00840429 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
